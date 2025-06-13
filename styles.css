@@ -18,13 +18,36 @@ body {
 .card {
     width: 300px;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #f8bbd0, #ffccbc, #fff9c4, #c8e6c9, #bbdefb);
+    background-size: 300% 300%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     text-align: center;
     padding: 20px;
+    animation: gradientMove 6s ease infinite;
 }
+@keyframes gradientMove {
+   0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 100%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+
 
 .head .circle {
     width: 130px;
