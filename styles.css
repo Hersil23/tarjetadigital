@@ -18,7 +18,7 @@ body {
 .card {
     width: 300px;
     height: auto;
-    background: linear-gradient(45deg, #f8bbd0, #ffccbc, #fff9c4, #c8e6c9, #bbdefb);
+    background: linear-gradient(45deg, #f5e6cc, #e8d9b9, #d9cba7, #c2b59a, #b5a58c);
     background-size: 300% 300%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -44,11 +44,6 @@ body {
         background-position: 0% 50%;
     }
 }
-
-
-
-
-
 .head .circle {
     width: 130px;
     height: 130px;
