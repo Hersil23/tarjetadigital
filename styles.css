@@ -54,6 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    justify-content: center;
     align-items: center;
     margin-top: 15px;
 }
@@ -68,5 +69,10 @@ button {
     transition: 0.3s;
     border: none;
     cursor: pointer;
+}
+button:hover {
+    background-color: #115293; 
+    transition: all 0.3s;
+    transform: scale(1.08); /* Azul más oscuro y tamaño más grande al pasar el mouse */
 }
 
